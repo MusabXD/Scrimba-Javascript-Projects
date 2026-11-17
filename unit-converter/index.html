@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Unit Converter</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="converter">
+            <h1>Metric/Imperial Unit Converter</h1>
+            <input id="input-num"></input>
+
+            <div id="buttons">
+                <button id="convert-btn" class="button">Convert</button>
+                <button id="reset-btn" class="button">Reset</button>
+            </div>
+        </div>
+
+        <div id="results">
+            <div class="conversions">
+                <h2>Length (Meter/Feet)</h2>
+                <p id="length-el"></p>
+            </div>
+
+            <div class="conversions">
+                <h2>Volume (Liters/Gallons)</h2>
+                <p id="volume-el"></p>
+            </div>
+            
+            <div class="conversions">
+                <h2>Mass (Kilograms/Pounds)</h2>
+                <p id="mass-el"></p>
+            </div>
+        </div>
+        
+        <footer>Built by <a target="_blank" href="https://github.com/MusabXD">Musab Sagri</a>.</footer>
+        <footer>SOLO project, part of the Frontend Path by <a target="_blank" href="https://scrimba.com">Scrimba</a>.</footer>
+    </body>
+    <script src="index.js"></script>
+
+</html>
